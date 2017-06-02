@@ -1,6 +1,6 @@
 # ubuntu-windows-setup
 
-I recently had to set up Ubuntu on Windows 10; here are some things I found useful.
+_I recently had to set up Ubuntu on Windows 10; here are some things I found useful._
 
 ## Installation
 
