@@ -8,7 +8,7 @@ Do the following:
 
 - make sure you are running Windows 10
 - get the [Windows 10 anniversary update](https://blogs.windows.com/windowsexperience/2016/08/02/how-to-get-the-windows-10-anniversary-update/)
-- [install the Linux bash shell](https://msdn.microsoft.com/en-gb/commandline/wsl/install_guide)
+- install the [Windows Subsystem for Linux](https://msdn.microsoft.com/en-gb/commandline/wsl/install_guide)
 
 ## Setup
 
