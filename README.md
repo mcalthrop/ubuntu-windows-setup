@@ -33,6 +33,8 @@ java -version
 javac -version
 ```
 
+> source: [http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html](http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html)
+
 ### Maven
 
 ```bash
@@ -40,3 +42,21 @@ sudo apt-get install maven
 # check installation:
 mvn --version
 ```
+
+## Removing packages
+
+Most packages are removed in the standard way:
+
+```bash
+sudo apt-get remove <package-name>
+```
+
+However, Java 8 was a bit different:
+
+```bash
+sudo apt-get remove oracle-java8-installer
+sudo apt-get purge oracle-java8-installer
+sudo apt-get autoremove
+```
+
+> source: [https://askubuntu.com/a/850740](https://askubuntu.com/a/850740)
