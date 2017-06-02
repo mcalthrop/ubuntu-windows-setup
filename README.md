@@ -29,11 +29,12 @@ git version 1.9.1
 $ sudo add-apt-repository ppa:webupd8team/java
 $ sudo apt-get update
 $ sudo apt-get install oracle-java8-installer
-# check installation:
+# check runtime installation:
 $ java -version
 java version "1.8.0_131"
 Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
 Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
+# check compiler installation:
 $ javac -version
 javac 1.8.0_131
 ```
