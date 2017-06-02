@@ -18,18 +18,25 @@ Here are the packages that I installed.
 
 ```bash
 sudo apt-get install git
+# check installation:
+git --version
 ```
 
-### Java 8 JRE
+### Java 8 JDK
 
 ```bash
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
+# check installation:
+java -version
+javac -version
 ```
 
 ### Maven
 
 ```bash
 sudo apt-get install maven
+# check installation:
+mvn --version
 ```
